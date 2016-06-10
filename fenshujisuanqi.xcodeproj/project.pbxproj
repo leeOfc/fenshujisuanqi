@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184A75621C8FC978005CB4FB /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A75611C8FC978005CB4FB /* Calculator.m */; };
 		1859439D1C8DB5C000735995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859439C1C8DB5C000735995 /* main.m */; };
 		185943A01C8DB5C000735995 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859439F1C8DB5C000735995 /* AppDelegate.m */; };
 		185943A31C8DB5C000735995 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185943A21C8DB5C000735995 /* ViewController.m */; };
 		185943A61C8DB5C000735995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185943A41C8DB5C000735995 /* Main.storyboard */; };
 		185943A81C8DB5C000735995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185943A71C8DB5C000735995 /* Assets.xcassets */; };
 		185943AB1C8DB5C000735995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185943A91C8DB5C000735995 /* LaunchScreen.storyboard */; };
+		18B648B81C8EC2C3008F6F15 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B648B71C8EC2C3008F6F15 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184A75601C8FC978005CB4FB /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		184A75611C8FC978005CB4FB /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		185943981C8DB5C000735995 /* fenshujisuanqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fenshujisuanqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1859439C1C8DB5C000735995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1859439E1C8DB5C000735995 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		185943A71C8DB5C000735995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185943AA1C8DB5C000735995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185943AC1C8DB5C000735995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B648B61C8EC2C3008F6F15 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		18B648B71C8EC2C3008F6F15 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				185943A11C8DB5C000735995 /* ViewController.h */,
 				185943A21C8DB5C000735995 /* ViewController.m */,
 				185943A41C8DB5C000735995 /* Main.storyboard */,
+				18B648B61C8EC2C3008F6F15 /* Fraction.h */,
+				18B648B71C8EC2C3008F6F15 /* Fraction.m */,
+				184A75601C8FC978005CB4FB /* Calculator.h */,
+				184A75611C8FC978005CB4FB /* Calculator.m */,
 				185943A71C8DB5C000735995 /* Assets.xcassets */,
 				185943A91C8DB5C000735995 /* LaunchScreen.storyboard */,
 				185943AC1C8DB5C000735995 /* Info.plist */,
@@ -149,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184A75621C8FC978005CB4FB /* Calculator.m in Sources */,
 				185943A31C8DB5C000735995 /* ViewController.m in Sources */,
 				185943A01C8DB5C000735995 /* AppDelegate.m in Sources */,
 				1859439D1C8DB5C000735995 /* main.m in Sources */,
+				18B648B81C8EC2C3008F6F15 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = fenshujisuanqi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "leo-s.fenshujisuanqi";
@@ -272,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = fenshujisuanqi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "leo-s.fenshujisuanqi";
@@ -298,6 +312,7 @@
 				185943B11C8DB5C000735995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
